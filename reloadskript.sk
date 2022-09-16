@@ -1,0 +1,14 @@
+command /rs [<offline player>]:
+    permission: sk.rs
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute command "/sk reload %arg 1%"
+
+
+
+
+command /ricarica:
+    permission: sk.ricarica
+    permission message: &b&lSKRIPT &7Comando Sconosciuto
+    trigger:
+        make player execute command "/reload"
